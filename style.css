@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Hanalei+Fill&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    background-color: #2a9d8f;
+    color: #f4a261;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 1.5rem;
+}
+
+.darkborder{
+    color: #264653;
+    border: 3px solid #264653;
+    padding: 5px;
+}
+
+.pink {
+    color: #ef476f;
+    padding: 5px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Hanalei Fill', cursive;
+    color: #e9c46a;
+    font-size: 5rem;
+    text-shadow: -5px -5px 0 #e76f51, 5px -5px 0 #e76f51, -5px 5px 0 #e76f51, 5px 5px 0 #e76f51;
+}
+
+.flamingo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Hanalei Fill', cursive;
+    color:  #ef476f;
+    font-size: 7rem;
+    text-shadow: -3px -3px 0 #e9c46a, 3px -3px 0 #e9c46a, -3px 3px 0 #e9c46a, 3px 3px 0 #e9c46a;
+}
