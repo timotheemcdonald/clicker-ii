@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Hanalei+Fill&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Hanalei+Fill&family=Roboto&display=swap');
 
 * {
     box-sizing: border-box;
@@ -18,6 +18,11 @@ body {
     color: #264653;
     border: 3px solid #264653;
     padding: 5px;
+}
+
+.reg {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
 }
 
 .pink {
