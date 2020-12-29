@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
 body {
@@ -33,7 +32,13 @@ body {
 .center {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1, h2, h3 {
@@ -41,6 +46,23 @@ h1, h2, h3 {
     color: #e9c46a;
     font-size: 5rem;
     text-shadow: -5px -5px 0 #e76f51, 5px -5px 0 #e76f51, -5px 5px 0 #e76f51, 5px 5px 0 #e76f51;
+}
+
+#clicker {
+    font-family: 'Hanalei Fill', cursive;
+    color:  #ef476f;
+    font-size: 3rem;
+    text-shadow: -3px -3px 0 #e9c46a, 3px -3px 0 #e9c46a, -3px 3px 0 #e9c46a, 3px 3px 0 #e9c46a;
+}
+
+.buttonOne {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    background-color:  #2a9d8f;
 }
 
 .flamingo {
